@@ -1,0 +1,37 @@
+
+
+.card-image{
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+
+
+}
+
+.row-centered {
+  text-align:center;
+  }
+
+.item {
+  width: 100%;
+  text-align: center;
+	font-size: 1.5em;
+}
+
+.qrContainer {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.qrContainer > div {
+  flex: 50%; 
+  margin-bottom: 40px;
+  border: gray solid 1px;
+  
+  
+}
+.hide{
+	display: none;
+}
+

@@ -1,0 +1,61 @@
+
+/*This is for QR code print page*/
+.card-image{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+
+
+}
+
+/* Grid */
+.grid {
+	display: grid;
+  justify-content: center;
+  /* border: 1px solid green; */
+  
+}
+
+/* fr é uma unidade fracional */
+.grid-template-columns-2 {
+	
+	grid-template-columns: 350px 350px;
+	
+}
+h1.title-center {
+	text-align: center;
+  }
+
+/* Estilos Gerais */
+.item {
+	margin: 5px;
+	/* background: tomato; */
+	text-align: center;
+	font-size: 1.5em;
+  /* border: black solid 1px; */
+  margin-bottom: 30px;
+}
+
+
+
+
+
+body {
+	font-family: monospace;
+	color: #333;
+	margin: 0px;
+	padding-bottom: 60px;
+	
+}
+
+/* #target-1{
+	display: none;
+} */
+.hide{
+	display: none;
+}
+
+/* .printbreak{
+	page-break-before: always;
+} */
+
